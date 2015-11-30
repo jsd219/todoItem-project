@@ -1,7 +1,7 @@
 
 var TodoItem = Backbone.Model.extend({
 	defaults: {
-		isCompleted: false
+		completed: false
 	},
 
 	urlRoot: "http://jsonplaceholder.typicode.com/todos",
